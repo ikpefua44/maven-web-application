@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla</finalName>
+		<finalName>Theo-project</finalName>
 		
 		<plugins>
 			<plugin>
