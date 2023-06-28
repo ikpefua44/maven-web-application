@@ -101,7 +101,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.237.201.83:8081/repository/Theo-Snapshot/<url>
+	      <url>http://54.237.201.83:8081/repository/Theo-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
