@@ -36,7 +36,7 @@ pipeline{
     }
     stage('5deployment'){
       steps{
-        deploy adapters: [tomcat9(credentialsId: 'tomcatlogin2', path: '', url: 'http://3.83.204.119:8177/')], contextPath: null, war: 'target/*war'
+       deploy adapters: [tomcat9(credentialsId: 'tomcat login', path: '', url: 'http://3.86.138.163:8177/')], contextPath: null, war: 'target/*war' 
         sh "echo deployment to production completed successfully"
       }       
     }
